@@ -15,9 +15,9 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-        if (message.content.startsWith(`${prefix}hello`) || message.content.startsWith(`${prefix}hi`)) {
-                message.channel.send('hi!!');
-        } else if (message.content.startsWith(`${prefix}bye`) || message.content.startsWith(`${prefix}goodbye`)) {
-                message.channel.send('bye bye');
+        if (message.content.startsWith(`${prefix}ping`)) {
+                message.channel.send('Pong.');
+        } else if (message.content.startsWith(`${prefix}beep`)) {
+                message.channel.send('Boop.');
         }
 });
