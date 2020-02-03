@@ -1,0 +1,23 @@
+{
+  "name": "ac-bot",
+  "version": "1.0.0",
+  "description": "ac-bot for discord",
+  "main": "ribbot.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuggetsnegin/AC-discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuggetsnegin/AC-discord-bot/issues"
+  },
+  "homepage": "https://github.com/nuggetsnegin/AC-discord-bot#readme"
+}
